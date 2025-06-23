@@ -33,14 +33,14 @@ img {
    justify-content: space-between;
    align-items: center;
    padding: 0 20px;
-   width: 900px;
+   width: 1125px;
    height: 80px;
    border: 5rem;
 
 }
 
 #nav {
-   margin-left: 10rem;
+   margin-right: 23rem;
    display: flex;
    flex: start;
 }
@@ -50,11 +50,13 @@ nav a {
    color: black;
    font-weight: 600;
    margin-left: 1rem;
+   padding-right: 3rem;
 }
 
 .buttons {
    display: flex;
    flex: flex-end;
+   margin-left: 10rem;
 }
 
 .login-button {
@@ -65,7 +67,8 @@ nav a {
    font-size: 0.80rem;
    font-weight:600;
    border:none;
-   margin-right:0.60rem ;
+   margin-right:0.60rem;
+
 
 }
 
