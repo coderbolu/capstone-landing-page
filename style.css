@@ -98,3 +98,9 @@ h1 {
    font-weight: 800;
    line-height:3rem;
 }
+
+p {
+   font-size: 0.80rem;
+   font-weight: 500;
+   line-height: 1.2rem;
+}
