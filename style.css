@@ -47,7 +47,7 @@ img {
 nav a {
    text-decoration: none;
    color: black;
-   font-size: 1rem;
+   font-size: 1.5rem;
    font-weight: 600;
    margin-left: 1rem;
    padding-right: 3rem;
@@ -56,15 +56,14 @@ nav a {
 .buttons {
    display: flex;
    flex: flex-end;
-   margin-left: 5rem;
 }
 
 .login-button {
    background-color: #CBFFD0;
-   width: 120px;
-   height: 40px;
+   width: 180px;
+   height: 50px;
    border-radius:0.80rem;
-   font-size: 0.80rem;
+   font-size: 1rem;
    font-weight:600;
    border:none;
    margin-right:0.60rem;
@@ -72,10 +71,10 @@ nav a {
 
 .getstarted-button {
    background-color: #26A69A;
-   width: 120px;
-   height: 40px;
+   width: 180px;
+   height: 50px;
    border-radius:0.80rem;
-   font-size: 0.80rem;
+   font-size: 1rem;
    font-weight:600;
    border:none;
 }
@@ -97,7 +96,7 @@ nav a {
 h1 {
    font-size: 3.5rem;
    font-weight: 800;
-   line-height:
+   line-height:5rem;
 }
 
 p {
@@ -108,25 +107,25 @@ p {
 }
 
 .download-now {
-   background-color: #BEBEBE;
-   width: 200px;
-   height: 55px;
-   opacity: 65%;
+   width: 250px;
+   height: 70px;
+   opacity: 30%;
    font-size: 1rem;
    font-weight: 600;
-   border: none;
-   border-radius: 0.80rem;
+   border-radius: 1.80rem;
+   margin-right:0.60rem;
+   border-color: #e5e7eb;
 }
 
 .getstarted-btn {
    background-color: #26A69A;
-   width: 200px;
-   height: 55px;
-   opacity: 65%;
+   width: 250px;
+   height: 70px;
+   opacity: 50%;
    font-size: 1rem;
    font-weight: 600;
-   border: none;
-   border-radius: 0.80rem;
+   border-radius: 1.80rem;
+   border-color: #e5e7eb;
 }
 
 /* .right img {
