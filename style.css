@@ -70,6 +70,7 @@ nav a {
 .buttons {
    display: flex;
    flex: flex-end;
+   margin-top: 0.50rem;
 }
 
 .login-button {
