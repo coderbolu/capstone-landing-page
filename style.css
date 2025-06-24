@@ -19,7 +19,7 @@
    height: 100vh;
    background-size:cover;
    background-repeat: no-repeat;
-   background-position: absolute;
+   background-position: relative;
 }
 
 img {
@@ -29,6 +29,7 @@ img {
 
 .navbar {
    background-color: white;
+   background-position: relative;
    border-color:  #e5e7eb;
    display: flex;
    flex-direction: row;
