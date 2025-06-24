@@ -28,17 +28,19 @@ img {
 }
 
 .navbar {
-   background-image: url(/assets/bg2.jpg);
+   /* background-image: url(/assets/bg2.jpg); */
+   background-color: red;
    display: flex;
    flex-direction: row;
    justify-content: center;
    align-items: center;
-   backdrop-filter: blur(10%);
-  -webkit-backdrop-filter: blur(30%);
+   opacity: 50%;
+   /* backdrop-filter: blur(50%);
+  -webkit-backdrop-filter: blur(70%); */
    padding: 0 20px;
    max-width: 1125px;
    height: 80px;
-   border: 15rem;
+   border-radius: 15rem;
 
 }
 
@@ -138,4 +140,8 @@ p {
    max-height: 741px;
    margin-top: -80px;
    margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+
 }
