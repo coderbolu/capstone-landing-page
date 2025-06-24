@@ -24,7 +24,7 @@
 
 img {
    width:12rem;
-   margin-top: 1.5rem;
+   margin-top: 0.50rem;
 }
 
 .navbar {
@@ -54,6 +54,7 @@ ul {
    display: flex;
    list-style: none;
    padding-left: 0;
+   margin-top: 1rem;
 }
 
 nav a {
@@ -63,7 +64,7 @@ nav a {
    font-weight: 600;
    margin-left: 1rem;
    padding-right: 3rem;
-   margin-top: 0.50rem;
+   margin-top: 1rem;
 }
 
 .buttons {
