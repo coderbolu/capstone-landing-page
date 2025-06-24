@@ -34,7 +34,11 @@ img {
    flex-direction: row;
    justify-content: center;
    align-items: center;
-   opacity: 50%;
+   /* opacity: 50%; */
+   backdrop-filter: transparency(10px);
+   -webkit-backdrop-filter: blur(10px);
+   z-index: 1000;
+   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
    padding: 0 20px;
    max-width: 1125px;
    height: 80px;
