@@ -34,10 +34,8 @@ img {
    flex-direction: row;
    justify-content: center;
    align-items: center;
-   margin-top: 2rem;
+   /* margin-top: 2rem; */
    opacity: 50%;
-   /* backdrop-filter: transparency(10px);
-   -webkit-backdrop-filter: blur(10px); */
    padding: 0 20px;
    width: 1200px;
    height: 80px;
@@ -54,7 +52,13 @@ ul {
    display: flex;
    list-style: none;
    padding-left: 0;
-   margin-top: 1rem;
+   margin-top: 0.80rem;
+}
+
+i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav a {
