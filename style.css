@@ -55,12 +55,6 @@ ul {
    margin-top: 0.80rem;
 }
 
-i {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 nav a {
    text-decoration: none;
    color: black;
