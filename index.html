@@ -29,6 +29,7 @@
                      <button class="getstarted-button">Get Started</button>
                      </div>
                   </nav>
+                  <div class="hamburger" id="hamburger">☰ </div> 
                </div>
             </header>
 
@@ -57,7 +58,7 @@
    <script>feather.replace()
 
         const hamburger = document.getElementById('hamburger');
-        const navLinks = document.getElementById('nav-menu');
+        const navLinks = document.getElementById('nav');
 
         hamburger.addEventListener('click', () => {
             navLinks.classList.toggle('active');
