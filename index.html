@@ -54,6 +54,21 @@
             </section>
       </div>
    </main>
-   <script>feather.replace()</script>
+   <script>feather.replace()
+
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+
+             // Toggle icon between ☰ and ×
+            if (navLinks.classList.contains('active')) {
+            hamburger.textContent = '✕'; // Close icon
+            } else {
+            hamburger.textContent = '☰'; // Hamburger icon
+            }
+        });
+   </script>
 </body>
 </html>
