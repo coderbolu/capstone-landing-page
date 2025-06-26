@@ -160,8 +160,8 @@ p {
 @media (max-width: 768px) {
 
    body {
-      max-width: 640px;
-      min-height: 100vh;
+      /* max-width: 640px; */
+      height: auto;
    }
 
    img {
