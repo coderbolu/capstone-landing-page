@@ -25,48 +25,52 @@
    background-position: absolute;
 }
 
-img {
-   width:12rem;
+.logo-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   margin-top: 3rem;
 }
 
-.header {
-   position: fixed;
-   top:0;
+.logo-container img {
+   width:12rem;
+   nav-left: 20rem;
+
+}
+
+.head {
+   /* position: fixed; */
+   top:10;
    left:0;
    width: 1200px;
-   height: 5px;
-   padding: 3rem 20px 0 0;
-   background-color: white;
-   z-index: fixed;
+   height: 80px;
+   padding-top: 3rem;
+   /* z-index: fixed; */
    display: flex;
-   justify-content: space-between;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   border-color:  #e5e7eb;
+   border-radius: 1.2rem;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+   background-position: absolute;
 }
 
-.navbar {
- 
+/* #navbar {
    background-position: relative;
-   border-color:  #e5e7eb;
    display: flex;
    flex-direction: row;
    justify-content: center;
    align-items: center;
    opacity: 50%;
-   padding: 0 20px;
-   width: 1200px;
-   height: 80px;
-   border-radius: 1.2rem;
-   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-}
-
-#nav {
-   display: flex;
-   flex: start;
-}
+} */
 
 ul {
    margin: 0;
    padding: 0;
    list-style: none;
+   /* display: flex; */
+   /* flex-direction: row; */
 }
 
 a {
@@ -74,15 +78,15 @@ a {
    color: black;
    font-size: 1.25rem;
    font-weight: 600;
-   margin-left: 1rem;
-   padding-right: 3rem;
-   margin-top: 1rem;
+   /* margin-left: 1rem; */
+   /* padding-right: 3rem; */
+   /* margin-top: 1rem; */
 }
 
 .buttons {
    display: flex;
    flex: flex-end;
-   margin-top: 0.50rem;
+   /* margin-top: 0.50rem; */
 }
 
 .login-button {
@@ -212,7 +216,7 @@ nav a {
 
 
 .toggle {
-   font-size: 2rem;
+   font-size: 3rem;
    cursor: pointer;
 }
 
