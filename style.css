@@ -243,4 +243,7 @@ p {
    padding-left: 0;
   
 }
+.show {
+   left: 0;
+}
 }
