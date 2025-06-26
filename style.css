@@ -208,16 +208,14 @@ nav a {
    flex-direction: column;
    padding-top: 7rem;
 }
-
 .left {
-   width: 750px;
-   padding-left: 5rem;
+   padding-left: 1rem;
 }
 
 h1 {
-   font-size: 3.5rem;
+   font-size: 2rem;
    font-weight: 800;
-   line-height:5rem;
+   line-height:3rem;
 }
 
 p {
@@ -227,5 +225,9 @@ p {
    padding-bottom: 3rem;
 }
 
+.buttons2 {
+   display: flex;
+   flex-direction: column;
+}
 
 }
