@@ -18,7 +18,7 @@
    height: 100vh;
    background-size:cover;
    background-repeat: no-repeat;
-   background-position: absolute;
+   background-position: relative;
 }
 
 img {
@@ -159,14 +159,14 @@ p {
 @media (max-width: 768px) {
 
    body {
-      /* max-width: 640px; */
-      height: auto;
-   }
+   /* max-width: 640px; */
+   height: auto;
+}
 
    img {
    width:5rem;
    margin-top: 1rem;
-   }
+}
 
 .header {
    position: fixed;
@@ -193,12 +193,12 @@ p {
    margin-bottom: 2rem;
 }
 
-
 nav a {
    text-decoration: none;
-   font-size: 0.70rem;
+   font-size: 0.80rem;
    font-weight: 600;
 }
+
 
 .toggle {
    font-size: 2rem;
